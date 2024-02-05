@@ -1,0 +1,14 @@
+
+public class Main {
+    public static void main(String[] args) {
+        int[] myArray = new int[]{1, 2, 3};
+        someMethod(myArray);
+    }
+    static void someMethod (int[] spisok){
+        for (int number : spisok){
+            if (number % 3 == 0) {
+                System.out.print(number + " ");
+            }
+        }
+    }
+}
